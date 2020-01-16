@@ -1,177 +1,292 @@
 <!DOCTYPE html>
-<html lang="">
-
+<html lang>
 <head><meta name="generator" content="Hexo 3.9.0">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="browsermode" content="application">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Arizona">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="msapplication-navbutton-color" content="#666666">
+<meta name="format-detection" content="telephone=no">
 
-    
-      <link rel="icon" href="/favicon.ico">
-    
 
-    <title>
-        
-          Arizona
-        
-    </title>
 
-    <!-- Spectre.css framework -->
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
 
-    <!-- Noto Sans TC -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
-    <!-- Noto Sans SC -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
-    <!-- Noto Sans -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
-    <!-- theme css & js -->
-    <link rel="stylesheet" href="/css/book.css">
-    <script src="/js/book.js"></script>
 
-    <!-- tocbot -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-    
-    <!-- katex -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-
-    
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<link rel="apple-touch-startup-image" media="(device-width: 375px)" href="assets/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(orientation: landscape)" href="assets/apple-touch-startup-image-2048x1496.png">
+<link rel="stylesheet" href="/style/style.css">
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    const zooming = new Zooming()
-    zooming.listen('img')
-})
+  var nlviconfig = {
+    title: "Arizona",
+    author: "Arizona",
+    baseUrl: "/",
+    theme: {
+      scheme: "",
+      lightbox: ,
+      animate: ,
+      search: false,
+      friends: false,
+      reward: false,
+      pjax: false,
+      lazy: false,
+      toc: false
+    }
+  }
 </script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+@font-face {
+  font-family: "Allura";
+  src: url('/font/allura/allura.ttf');
+}
+</style>
+
+  <title>
+  
+</title>
 </head>
-
 <body>
-
-<div class="container">
-  <div class="book-container">
-    <div class="columns">
-      <div class="column col-2 hide-lg">
-        <div class="book-sidebar">
-  <h4 class="site-meta">
-    <a href="/">Arizona</a>
-  </h4>
-  <div class="sidebar-content">
-    <h5 id="About">About</h5>
-<h5 id="Pages">Pages</h5>
-
-  </div>
-</div>
-
-<script src="/js/book-sidebar.js"></script>
-
-<script>
-collapse_sidebar(2)
-highlight_tab()
-show_sidebar()
-</script>
-      </div>
-
-      <div class="column col-8 col-lg-12">
-        <div class="book-content">
-          <div class='book-archive'>
-  <!-- Title -->
-  
-    <h2>Categories</h2>
-  
-
-  
-    <!-- Split post by year -->
+  <div class="container">
+    <header class="header" id="header">
+  <div class="header-wrapper">
+    <div class="logo">
+  <div class="logo-inner syuanpi tvIn" style="display:none;">
+    <h1><a href="/">Arizona</a></h1>
     
-  
-
-  
-      <div class="book-archive-years">
-          <h5>2020</h5>
-          <ul class="archive-list-item">
-          
-              <li>
-                <span>2020-01-16</span>
-                <a href="/2020/01/16/Unit1/">
-                  Unit1
-                </a>
-              </li>
-          
-          </ul>
-      </div>
-  
-
-  
-</div>
-        </div>
-      </div>
-
-      <div class="column col-2 hide-lg">
-        <div class="book-toc">
-  <div class="book-tocbot">
-  </div>
-  <div class="book-tocbot-menu">
-    <a class="book-toc-expand" onclick="expand_toc()">Expand all</a>
-    <a onclick="go_top()">Back to top</a>
-    <a onclick="go_bottom()">Go to bottom</a>
   </div>
 </div>
 
-<script>
-tocbot.init({
-  tocSelector: '.book-tocbot',
-  contentSelector: '.book-post',
-  headingSelector: 'h1, h2, h3, h4, h5',
-  collapseDepth: 2,
-  orderedList: false,
-  scrollSmooth: false,
-});
+    <nav class="main-nav">
+  
+</nav>
 
-function expand_toc(){
-  var b = document.querySelector(".book-toc-expand");
-  tocbot.init({
-    tocSelector: '.book-tocbot',
-    contentSelector: '.book-post',
-    headingSelector: 'h1, h2, h3, h4, h5',
-    collapseDepth: 6,
-    orderedList: false,
-    scrollSmooth: false,
-  });
-  b.setAttribute("onclick", "collapse_toc()");
-  b.innerHTML = "Collapse all"
-}
-
-function collapse_toc(){
-  var b = document.querySelector(".book-toc-expand");
-  tocbot.init({
-    tocSelector: '.book-tocbot',
-    contentSelector: '.book-post',
-    headingSelector: 'h1, h2, h3, h4, h5',
-    collapseDepth: 2,
-    orderedList: false,
-    scrollSmooth: false,
-  });
-  b.setAttribute("onclick", "expand_toc()");
-  b.innerHTML = "Expand all"
-}
-
-function go_top() {
-  window.scrollTo(0, 0);
-}
-
-function go_bottom() {
-  window.scrollTo(0, document.body.scrollHeight);
-}
-
-</script>
+  </div>
+</header>
+<div class="mobile-header" id="mobile-header">
+  <div class="mobile-header-nav">
+    <div class="mobile-header-item" id="mobile-left">
+      <div class="header-menu-item">
+        <div class="header-menu-line"></div>
       </div>
     </div>
+    <h1 class="mobile-header-title">
+      <a href="/">Arizona</a>
+    </h1>
+    <div class="mobile-header-item"></div>
+  </div>
+  <div class="mobile-header-body">
+    <ul class="mobile-header-list">
+      
+    </ul>
   </div>
 </div>
+
+
+
+    <div class="container-inner" style="display:none;">
+      <main class="main" id="main">
+        <div class="main-wrapper">
+          
+    
+  <div class="archive syuanpi fadeInRightShort" id="archive">
+    
+      <span class="archive-title"> now in </span>
+      <span class="archive-name"> — photography</span>
+    
+      
+      
+        
+          
+        
+        <div class="archive-post">
+          <div class="archive-post-content">
+            
+              <blockquote>
+<p>I teach myself.</p>
+<p>Ich lehre mich.</p>
+</blockquote>
+<p>最近在读《美国纽约摄影学院 摄影教材》（上册），大约一个周，断断续续学习完第一单元。</p>
+<h4 id="判断一幅照片">判断一幅照片</h4>
+<p>怎样才是一副好照片？</p>
+<ol>
+<li>有一个鲜明的主题</li>
+<li>有能吸引注意力的主体</li>
+<li>画面简洁</li>
+</ol>
+<p>所以，拍摄或欣赏照片时去思考这些问题：</p>
+<ol>
+<li>照片要表现的主题是什么？</li>
+<li>怎样把观者的注意力引到主体上？</li>
+<li>画面是否足够简洁？</li>
+</ol>
+<h4 id="观察周围的世界">观察周围的世界</h4>
+<blockquote>
+<p>“我们看得太多了，所以就视而不见了。”</p>
+</blockquote>
+<p>带着新奇感和陌生感，用全新的方式重新观察周围的世界。</p>
+<h4 id="技巧，试一试">技巧，试一试</h4>
+<h5 id="控制焦距">控制焦距</h5>
+<p>长焦距（远摄镜头）产生的视差，压缩远处个体间的距离。</p>
+<h6 id="创意，利用变焦">创意，利用变焦</h6>
+<p>打开快门的同时进行变焦。</p>
+<h5 id="控制景深">控制景深</h5>
+<h6 id="利用光圈">利用光圈</h6>
+<p>光圈小，景深大，拥有更多聚焦误差的余量。</p>
+<h6 id="聚焦物体的远近">聚焦物体的远近</h6>
+<p>焦点越远，景深越大。</p>
+<p>聚焦远处的物体，照片具有较大的景深，误差余量更大。</p>
+<h5 id="超焦距">超焦距</h5>
+<p>使用最小的光圈，获得最大的景深。（对于有标尺并能手动调节的镜头）</p>
+<h5 id="控制快门速度">控制快门速度</h5>
+<p>快门速度取决于运动物体的速度、方向、距离，及镜头的焦距。</p>
+<h6 id="追随拍摄">追随拍摄</h6>
+<p>使运动的物体保持在取景器的中心，低速快门追随拍摄，运动物体的影像清晰，背景动态模糊。</p>
+<p>试一试1/30s。</p>
+<h5 id="失误判断">失误判断</h5>
+<p>部分模糊，对焦不当；</p>
+<p>全部模糊，拍摄时抖动。</p>
+<h4 id="回顾">回顾</h4>
+<p>仍有概念不理解。</p>
+<p>2.8 焦距</p>
+<h4 id="单元作业">单元作业</h4>
+<p>应用本单元所学的技巧，拍摄三幅不同的照片，每一幅集中运用一种技巧。</p>
+
+            
+          </div>
+          <div class="archive-post-info">
+            <time class="archive-post-time">
+              2020-01-16
+            </time>
+            <a class="archive-post-link" href="/2020/01/16/Unit1/">
+              Unit1
+            </a>
+          </div>
+        </div>
+      
+      
+        
+      
+  </div>
+  
+  <nav class="pagination">
+      <span class="page-number current">1</span>
+  </nav>
+
+
+
+
+        </div>
+      </main>
+      <footer class="footer syuanpi fadeIn" id="footer">
+  <hr>
+  <div class="footer-wrapper">
+    <div class="left">
+      <div class="contact-icon">
+  
+  
+</div>
+
+    </div>
+    <div class="right">
+      <div class="copyright">
+    <div class="info">
+        <span>&copy;</span>
+        <span> ~ 2020</span>
+        <span>❤</span>
+        <span>Arizona</span>
+    </div>
+    <div class="theme">
+        <span>
+            Powered by
+            <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo </a>
+        </span>
+        <span>
+            Theme
+            <a href="https://github.com/ColMugX/hexo-theme-Nlvi"> Nlvi </a>
+        </span>
+    </div>
+    
+</div>
+
+    </div>
+  </div>
+</footer>
+    </div>
+    <div class="tagcloud" id="tagcloud">
+  <div class="tagcloud-taglist">
+  
+    <div class="tagcloud-tag">
+      <button>photography</button>
+    </div>
+  
+  </div>
+  
+    <div class="tagcloud-postlist active">
+      <h2>photography</h2>
+      
+        <div class="tagcloud-post">
+          <a href="/2020/01/16/Unit1/">
+            <time class="tagcloud-posttime">2020 / 01 / 16</time>
+            <span>Unit1</span>
+          </a>
+        </div>
+      
+    </div>
+  
+</div>
+
+  </div>
+  <div class="backtop syuanpi melt toTop" id="backtop">
+    <i class="iconfont icon-up"></i>
+    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="/script/scheme/balance.js"></script>
+
+
+<script src="/script/bootstarp.js"></script>
+
+
+
 
 </body>
 </html>
