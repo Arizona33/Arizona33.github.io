@@ -29,7 +29,7 @@
       scheme: "banderole",
       lightbox: true,
       animate: false,
-      search: true,
+      search: false,
       friends: false,
       reward: false,
       pjax: false,
@@ -89,25 +89,6 @@
   
   <ul class="main-nav-list syuanpi tvIn">
   
-    <li class="menu-item">
-      <a href="javascript:;" id="search-btn" aria-label="Search">
-        <i class="iconfont icon-search"></i>
-      </a>
-    </li>
-  
-  
-  
-    
-  
-    <li class="menu-item">
-      <a href="/" id="home">
-        <span class="base-name">
-          
-            HOME
-          
-        </span>
-      </a>
-    </li>
   
   
     
@@ -126,23 +107,10 @@
     
   
     <li class="menu-item">
-      <a href="javascript:;" id="tags">
+      <a href="/me" id="me">
         <span class="base-name">
           
-            TAGS
-          
-        </span>
-      </a>
-    </li>
-  
-  
-    
-  
-    <li class="menu-item">
-      <a href="/about" id="about">
-        <span class="base-name">
-          
-            ABOUT
+            ME
           
         </span>
       </a>
@@ -171,14 +139,6 @@
     <ul class="mobile-header-list">
       
         <li class="mobile-nav-item syuanpi fadeInRightShort back-0">
-          <a href="/">
-            
-              HOME
-            
-          </a>
-        </li>
-      
-        <li class="mobile-nav-item syuanpi fadeInRightShort back-1">
           <a href="/archives">
             
               ARCHIVES
@@ -186,18 +146,10 @@
           </a>
         </li>
       
-        <li class="mobile-nav-item syuanpi fadeInRightShort back-2">
-          <a href="javascript:;" id="mobile-tags">
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-1">
+          <a href="/me">
             
-              TAGS
-            
-          </a>
-        </li>
-      
-        <li class="mobile-nav-item syuanpi fadeInRightShort back-3">
-          <a href="/about">
-            
-              ABOUT
+              ME
             
           </a>
         </li>
@@ -216,7 +168,7 @@
   <div class="archive syuanpi fadeInRightShort" id="archive">
     
       <aside class="archive-title">Total</aside>
-      <span class="archive-num">2 Posts In Total</span>
+      <span class="archive-num">3 Posts In Total</span>
     
       
       
@@ -233,13 +185,33 @@
         <div class="archive-post">
           <div class="archive-post-content">
             
+              
+            
+          </div>
+          <div class="archive-post-info">
+            <time class="archive-post-time">
+              2020-01-16
+            </time>
+            <a class="archive-post-link" href="/2020/01/16/test/">
+              test
+            </a>
+          </div>
+        </div>
+      
+        
+          
+          
+          
+        <div class="archive-post">
+          <div class="archive-post-content">
+            
               <blockquote>
 <p>I teach myself.</p>
 <p>Ich lehre mich.</p>
 </blockquote>
 <p>最近在读《美国纽约摄影学院 摄影教材》（上册），大约一个周，断断续续学习完第一单元。</p>
-<h4 id="判断一幅照片">判断一幅照片</h4>
-<p>怎样才是一副好照片？</p>
+<h4 id="一幅照片">一幅照片</h4>
+<p>怎样才是好照片？</p>
 <ol>
 <li>有一个鲜明的主题</li>
 <li>有能吸引注意力的主体</li>
@@ -251,7 +223,7 @@
 <li>怎样把观者的注意力引到主体上？</li>
 <li>画面是否足够简洁？</li>
 </ol>
-<h4 id="观察周围的世界">观察周围的世界</h4>
+<h4 id="周围的世界">周围的世界</h4>
 <blockquote>
 <p>“我们看得太多了，所以就视而不见了。”</p>
 </blockquote>
@@ -303,6 +275,10 @@
           <div class="archive-post-content">
             
               <p>nothing.</p>
+<h1>I have nothing to say</h1>
+<h2 id="nothing-to-say">nothing to say</h2>
+<h3 id="say">say</h3>
+<p><img src="/images/test.jpg" alt="test"></p>
 
             
           </div>
@@ -368,23 +344,7 @@
     <div class="tagcloud" id="tagcloud">
   <div class="tagcloud-taglist">
   
-    <div class="tagcloud-tag">
-      <button>photography</button>
-    </div>
-  
   </div>
-  
-    <div class="tagcloud-postlist active">
-      <h2>photography</h2>
-      
-        <div class="tagcloud-post">
-          <a href="/2020/01/16/Unit1/">
-            <time class="tagcloud-posttime">2020 / 01 / 16</time>
-            <span>Unit1</span>
-          </a>
-        </div>
-      
-    </div>
   
 </div>
 
@@ -393,13 +353,6 @@
     <i class="iconfont icon-up"></i>
     <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
 </div>
-
-  <div class="search" id="search">
-    <div class="input">
-      <input type="text" id="search-input" placeholder="search" autofocus>
-    </div>
-    <div id="search-result"></div>
-  </div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
